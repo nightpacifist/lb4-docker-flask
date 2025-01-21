@@ -11,6 +11,10 @@ def hello_world():
 def other():
     return "Hello, World!"
 
+@app.route('/en2')
+def other():
+    return "Hello, World!"
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
